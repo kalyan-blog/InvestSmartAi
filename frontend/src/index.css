@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  color: #e2e8f0;
+  background-color: #0b1224;
+}
+
+body {
+  min-height: 100vh;
+  background: #0b1224;
+  background-image: var(--mesh, linear-gradient(120deg, rgba(124,58,237,0.15), rgba(66,242,255,0.08)));
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 25px 80px rgba(0,0,0,0.35);
+  backdrop-filter: blur(16px);
+}
+
+.btn-primary {
+  @apply bg-accent hover:bg-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition;
+}
+
+.input {
+  @apply w-full rounded-lg bg-slate-900 border border-slate-800 px-4 py-3 text-slate-100 focus:outline-none focus:border-accent;
+}
