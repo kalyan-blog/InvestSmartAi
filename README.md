@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Project Name: Smart Market Tracker
 
 ## Overview
@@ -26,3 +27,6 @@ cd frontend
 npm run build
 npm run preview
 \\\`n
+=======
+# InvestSmartAi
+>>>>>>> d43249bc693c047b54c1377c3b6b327ca7bb071a
